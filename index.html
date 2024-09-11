@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DorkScan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="https://github.com/balwantyadav1" target="_blank">GitHub</a></li>
+                <li><a href="overview.html">Overview</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="middle-section">
+        <div class="typing-text">> Exploit internet..</div>
+    </div>
+
+    <!-- Option Bars Section -->
+    <div class="option-bars">
+        <div class="option-bar left">
+            <select id="role-select">
+                <option selected disabled>Select your Role</option>
+                <option value="BugBounty">Bug Bounty & Red Team</option>
+                <option value="Student">Student</option>
+            </select>
+        </div>
+
+        <div class="option-bar right">
+            <select id="dork-select" disabled>
+                <option selected disabled>Select the Dork</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- Search Bar Section -->
+    <div class="search-bar" id="search-bar">
+        <input type="text" id="search-input" placeholder="Enter search term...">
+        <button id="search-btn">Search</button>
+    </div>
+
+    <!-- Terminal Box Section -->
+    <div class="terminal-box" id="terminal-box">
+        <pre id="terminal-output">Home@Dorks---.</pre>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
